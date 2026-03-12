@@ -15,8 +15,8 @@
 		"markdown",
 		"shortcut",
 		"tool",
-		"helper"
-		"快捷键",
+		"helper",
+		"快捷键"
 	],
 	"main": "./extension",
 	"activationEvents": [
