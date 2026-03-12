@@ -4,6 +4,8 @@
 [![中文](https://img.shields.io/badge/语言-中文-red.svg)](README.md)
 
 ## Table of Contents
+- [Markdown Shortcuts](#markdown-shortcuts)
+  - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [License](#license)
   - [Demos](#demos)
@@ -13,7 +15,7 @@
       - [Title Bar Icons](#title-bar-icons)
       - [Markdown Markers](#markdown-markers)
       - [Language Support](#language-support)
-  - [Changelog](#changelog)
+  - [Changelog (See CHANGELOG for details)](#changelog-see-changelog-for-details)
     - [0.12.4 (March 12, 2026)](#0124-march-12-2026)
     - [0.12.3](#0123)
     - [0.12.2](#0122)
