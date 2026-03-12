@@ -1,7 +1,7 @@
 {
 	"name": "markdown-shortcuts-chinese",
-	"displayName": "%extension.displayName%",
-	"description": "%extension.description%",
+	"displayName": "Markdown 快捷键",
+	"description": "Markdown 编辑相关的快捷键",
 	"icon": "media/images/markdown-shortcuts-512x512.png",
 	"version": "0.12.3",
 	"publisher": "Brett-Wilson",
