@@ -1,6 +1,6 @@
 {
-    "extension.displayName": "Markdown Shortcuts",
-    "extension.description": "Shortcuts for Markdown editing",
+    "extension.displayName": "Markdown Shortcuts[Language Addition]",
+    "extension.description": "Shortcuts for Markdown editing[Language Addition]",
     
     "cmd.toggleCitations.title": "Toggle citations",
     "cmd.toggleBold.title": "Toggle bold",
