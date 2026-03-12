@@ -3,3 +3,7 @@ node_modules
 
 vsix/
 *.vsix
+
+.vscode/
+launch.json
+settings.json
