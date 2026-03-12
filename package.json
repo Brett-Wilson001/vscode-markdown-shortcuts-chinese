@@ -1,9 +1,9 @@
 {
 	"name": "markdown-shortcuts-chinese",
-	"displayName": "Markdown 快捷键",
-	"description": "Markdown 编辑相关的快捷键",
+	"displayName": "%extension.displayName%",
+	"description": "%extension.description%",
 	"icon": "media/images/markdown-shortcuts-512x512.png",
-	"version": "0.12.2",
+	"version": "0.12.3",
 	"publisher": "Brett-Wilson",
 	"engines": {
 		"vscode": "^1.9.0"
@@ -25,47 +25,47 @@
 	"contributes": {
 		"configuration": {
 			"type": "object",
-			"title": "Markdown 快捷键",
+			"title": "%extension.displayName%",
 			"properties": {
 				"markdownShortcuts.icons.bold": {
 					"type": "boolean",
 					"default": true,
-					"description": "在标题栏显示“粗体”图标"
+					"description": "%config.icons.bold.desc%"
 				},
 				"markdownShortcuts.icons.italic": {
 					"type": "boolean",
 					"default": true,
-					"description": "在标题栏显示“斜体”图标"
+					"description": "%config.icons.italic.desc%"
 				},
 				"markdownShortcuts.icons.strikethrough": {
 					"type": "boolean",
 					"default": true,
-					"description": "在标题栏显示“删除线”图标"
+					"description": "%config.icons.strikethrough.desc%"
 				},
 				"markdownShortcuts.icons.bullets": {
 					"type": "boolean",
 					"default": true,
-					"description": "在标题栏显示“无序列表”图标"
+					"description": "%config.icons.bullets.desc%"
 				},
 				"markdownShortcuts.icons.link": {
 					"type": "boolean",
 					"default": false,
-					"description": "在标题栏显示“链接”图标"
+					"description": "%config.icons.link.desc%"
 				},
 				"markdownShortcuts.icons.image": {
 					"type": "boolean",
 					"default": false,
-					"description": "在标题栏显示“图片”图标"
+					"description": "%config.icons.image.desc%"
 				},
 				"markdownShortcuts.icons.citations": {
 					"type": "boolean",
 					"default": false,
-					"description": "在标题栏显示“引用”图标"
+					"description": "%config.icons.citations.desc%"
 				},
 				"markdownShortcuts.bold.marker": {
 					"type": "string",
 					"default": "**",
-					"description": "粗体标记符",
+					"description": "%config.bold.marker.desc%",
 					"enum": [
 						"__",
 						"**"
@@ -74,7 +74,7 @@
 				"markdownShortcuts.bullets.marker": {
 					"type": "string",
 					"default": "*",
-					"description": "无序列表标记符",
+					"description": "%config.bullets.marker.desc%",
 					"enum": [
 						"-",
 						"*",
@@ -84,7 +84,7 @@
 				"markdownShortcuts.italics.marker": {
 					"type": "string",
 					"default": "_",
-					"description": "斜体标记符",
+					"description": "%config.italics.marker.desc%",
 					"enum": [
 						"_",
 						"*"
@@ -95,153 +95,153 @@
 					"default": [
 						"markdown"
 					],
-					"description": "快捷键可用的语言列表（数组）"
+					"description": "%config.languages.desc%"
 				}
 			}
 		},
 		"commands": [
 			{
 				"command": "md-shortcut.toggleCitations",
-				"title": "引用",
+				"title": "%cmd.toggleCitations.title%",
 				"icon": {
 					"dark": "./media/icons/quote_white.svg",
 					"light": "./media/icons/quote_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleBold",
-				"title": "粗体",
+				"title": "%cmd.toggleBold.title%",
 				"icon": {
 					"dark": "./media/icons/bold_white.svg",
 					"light": "./media/icons/bold_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleItalic",
-				"title": "斜体",
+				"title": "%cmd.toggleItalic.title%",
 				"icon": {
 					"dark": "./media/icons/italic_white.svg",
 					"light": "./media/icons/italic_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleStrikethrough",
-				"title": "删除线",
+				"title": "%cmd.toggleStrikethrough.title%",
 				"icon": {
 					"dark": "./media/icons/strikethrough_white.svg",
 					"light": "./media/icons/strikethrough_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleCodeBlock",
-				"title": "代码块",
+				"title": "%cmd.toggleCodeBlock.title%",
 				"icon": {
 					"dark": "./media/icons/code_white.svg",
 					"light": "./media/icons/code_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleInlineCode",
-				"title": "行内代码",
-				"category": "Markdown 快捷键"
+				"title": "%cmd.toggleInlineCode.title%",
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleLink",
-				"title": "超链接",
+				"title": "%cmd.toggleLink.title%",
 				"icon": {
 					"dark": "./media/icons/link_white.svg",
 					"light": "./media/icons/link_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleImage",
-				"title": "图片",
+				"title": "%cmd.toggleImage.title%",
 				"icon": {
 					"dark": "./media/icons/image_white.svg",
 					"light": "./media/icons/image_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleBullets",
-				"title": "无序列表",
+				"title": "%cmd.toggleBullets.title%",
 				"icon": {
 					"dark": "./media/icons/bullet_white.svg",
 					"light": "./media/icons/bullet_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleNumbers",
-				"title": "有序列表",
+				"title": "%cmd.toggleNumbers.title%",
 				"icon": {
 					"dark": "./media/icons/number_white.svg",
 					"light": "./media/icons/number_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleCheckboxes",
-				"title": "任务复选框",
+				"title": "%cmd.toggleCheckboxes.title%",
 				"icon": {
 					"dark": "./media/icons/check_white.svg",
 					"light": "./media/icons/check_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.addTable",
-				"title": "添加表格",
+				"title": "%cmd.addTable.title%",
 				"icon": {
 					"dark": "./media/icons/grid_white.svg",
 					"light": "./media/icons/grid_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.addTableWithHeader",
-				"title": "添加表格（带表头）",
+				"title": "%cmd.addTableWithHeader.title%",
 				"icon": {
 					"dark": "./media/icons/grid_white.svg",
 					"light": "./media/icons/grid_black.svg"
 				},
-				"category": "Markdown 快捷键"
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleTitleH1",
-				"title": "一级标题",
-				"category": "Markdown 快捷键"
+				"title": "%cmd.toggleTitleH1.title%",
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleTitleH2",
-				"title": "二级标题",
-				"category": "Markdown 快捷键"
+				"title": "%cmd.toggleTitleH2.title%",
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleTitleH3",
-				"title": "三级标题",
-				"category": "Markdown 快捷键"
+				"title": "%cmd.toggleTitleH3.title%",
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleTitleH4",
-				"title": "四级标题",
-				"category": "Markdown 快捷键"
+				"title": "%cmd.toggleTitleH4.title%",
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleTitleH5",
-				"title": "五级标题",
-				"category": "Markdown 快捷键"
+				"title": "%cmd.toggleTitleH5.title%",
+				"category": "%extension.displayName%"
 			},
 			{
 				"command": "md-shortcut.toggleTitleH6",
-				"title": "六级标题",
-				"category": "Markdown 快捷键"
+				"title": "%cmd.toggleTitleH6.title%",
+				"category": "%extension.displayName%"
 			}
 		],
 		"keybindings": [
@@ -420,10 +420,5 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Brett-Wilson001/vscode-markdown-shortcuts-chinese.git"
-	},
-	"__metadata": {
-		"installedTimestamp": 1768642654016,
-		"targetPlatform": "undefined",
-		"size": 581187
 	}
 }

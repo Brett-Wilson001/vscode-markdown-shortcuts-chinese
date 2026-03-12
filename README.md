@@ -1,16 +1,23 @@
 # Markdown 快捷键 (Markdown Shortcuts)
 
+[![English](https://img.shields.io/badge/lang-English-blue.svg)](README.en.md)
+[![中文](https://img.shields.io/badge/语言-中文-red.svg)](README.md)
+
 ## 说明
 
-> 本项目基于 [vscode-markdown-shortcuts](https://github.com/mdickin/vscode-markdown-shortcuts) 进行修改和优化(详见[更新日志](https://github.com/Brett-Wilson001/vscode-markdown-shortcuts-chinese?tab=readme-ov-file#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97))，原项目采用 MIT 许可证。
+> 本项目基于 [vscode-markdown-shortcuts](https://github.com/mdickin/vscode-markdown-shortcuts) 进行修改和优化，原项目采用 MIT 许可证。
 >
-> 这是一个非常好用的插件,但是没有中文,于是我进行了个人汉化等修改，可以直接安装使用(预览图未修改)。
+> 这是一个非常好用的插件，但是没有中文界面。本版本在原版基础上增加了多语言支持：
+> - 中文用户自动显示汉化界面
+> - 英文用户保持原版英文界面
+> - 自动识别VSCode语言设置，无需手动选择
 
 这是用于编辑 Markdown (`.md`, `.markdown`) 文件的便捷快捷键插件。您也可以在任何其他类型的文件中使用 Markdown 格式（请参阅配置设置）。
 
 ## 许可证
 - 本项目采用 MIT 许可证
 - 原作者：[mdickin](https://github.com/mdickin)
+- 本版本维护者：[Brett-Wilson](https://github.com/Brett-Wilson001)
 
 ## 预览图
 
@@ -58,8 +65,14 @@
 
 ## 更新日志
 
-### 0.12.1
-- **新增**: 添加汉化支持，提升中文用户体验
+### 0.12.3
+- **新增**: 实现多语言支持，自动识别VSCode语言设置
+  - 中文用户显示汉化界面
+  - 英文用户保持原版英文界面
+- **优化**: 改进本地化架构，便于后续添加更多语言
 
 ### 0.12.2
 - **优化**: 改进插件启动逻辑，提升加载性能
+
+### 0.12.1
+- **新增**: 添加汉化支持，提升中文用户体验
