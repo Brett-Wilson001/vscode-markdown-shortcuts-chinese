@@ -30,7 +30,14 @@
     "config.icons.image.desc": "Show image icon in title bar",
     "config.icons.citations.desc": "Show citations icon in title bar",
     "config.bold.marker.desc": "Bold marker",
+    "config.bold.marker.__.desc": "Double underscores (__text__)",
+    "config.bold.marker.**.desc": "Double asterisks (**text**)",
     "config.bullets.marker.desc": "Bullets marker",
+    "config.bullets.marker.-.desc": "Hyphen (-)",
+    "config.bullets.marker.*.desc": "Asterisk (*)",
+    "config.bullets.marker.+.desc": "Plus sign (+)",
     "config.italics.marker.desc": "Italics marker",
+    "config.italics.marker._.desc": "Underscore (_text_)",
+    "config.italics.marker.*.desc": "Asterisk (*text*)",
     "config.languages.desc": "Array of languages for which shortcuts will be available"
 }

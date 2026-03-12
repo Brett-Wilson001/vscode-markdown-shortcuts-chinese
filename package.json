@@ -69,6 +69,10 @@
 					"enum": [
 						"__",
 						"**"
+					],
+					"enumDescriptions": [
+						"%config.bold.marker.__.desc%",
+						"%config.bold.marker.**.desc%"
 					]
 				},
 				"markdownShortcuts.bullets.marker": {
@@ -79,6 +83,11 @@
 						"-",
 						"*",
 						"+"
+					],
+					"enumDescriptions": [
+						"%config.bullets.marker.-.desc%",
+						"%config.bullets.marker.*.desc%",
+						"%config.bullets.marker.+.desc%"
 					]
 				},
 				"markdownShortcuts.italics.marker": {
@@ -88,6 +97,10 @@
 					"enum": [
 						"_",
 						"*"
+					],
+					"enumDescriptions": [
+						"%config.italics.marker._.desc%",
+						"%config.italics.marker.*.desc%"
 					]
 				},
 				"markdownShortcuts.languages": {

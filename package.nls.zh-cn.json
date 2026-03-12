@@ -30,7 +30,14 @@
     "config.icons.image.desc": "在标题栏显示“图片”图标",
     "config.icons.citations.desc": "在标题栏显示“引用”图标",
     "config.bold.marker.desc": "粗体标记符",
+    "config.bold.marker.__.desc": "双下划线 (__text__)",
+    "config.bold.marker.**.desc": "双星号 (**text**)",
     "config.bullets.marker.desc": "无序列表标记符",
+    "config.bullets.marker.-.desc": "减号 (-)",
+    "config.bullets.marker.*.desc": "星号 (*)",
+    "config.bullets.marker.+.desc": "加号 (+)",
     "config.italics.marker.desc": "斜体标记符",
+    "config.italics.marker._.desc": "下划线 (_text_)",
+    "config.italics.marker.*.desc": "星号 (*text*)",
     "config.languages.desc": "快捷键适用的语言列表（数组）"
 }
