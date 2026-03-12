@@ -73,7 +73,7 @@
 				},
 				"markdownShortcuts.bullets.marker": {
 					"type": "string",
-					"default": "*",
+					"default": "-",
 					"description": "%config.bullets.marker.desc%",
 					"enum": [
 						"-",
