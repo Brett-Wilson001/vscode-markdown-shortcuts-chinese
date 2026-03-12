@@ -1,44 +1,45 @@
+# Markdown 快捷键 (Markdown Shortcuts)
 
-Handy shortcuts for editing Markdown (`.md`, `.markdown`) files. You can also use markdown formats in any other file (see configuration settings)
+本项目复刻自[vscode-markdown-shortcuts](https://github.com/mdickin/vscode-markdown-shortcuts)并添加个人汉化。用于编辑 Markdown (`.md`, `.markdown`) 文件的便捷快捷键。您也可以在任何其他类型的文件中使用 Markdown 格式（请参阅配置设置）。
 
-**Quickly toggle bullet points**
+**快速切换项目符号**
 
 ![](https://raw.githubusercontent.com/mdickin/vscode-markdown-shortcuts/master/media/demo/bullets.gif)
 
-**Easily generate URLs**
+**轻松生成链接**
 
 ![](https://raw.githubusercontent.com/mdickin/vscode-markdown-shortcuts/master/media/demo/urls.gif)
 
-**Convert tabular data to tables**
+**将表格数据转换为 Markdown 表格**
 
 ![](https://raw.githubusercontent.com/mdickin/vscode-markdown-shortcuts/master/media/demo/table_with_header.gif)
 
-**Context and title menu integration**
+**右键菜单和标题栏菜单集成**
 
 ![](https://raw.githubusercontent.com/mdickin/vscode-markdown-shortcuts/master/media/demo/shortcut_menu.png)
 
-You can show and hide icons in the title bar with the `markdownShortcuts.icons.*` config settings.
+您可以通过 `markdownShortcuts.icons.*` 配置设置来显示或隐藏标题栏中的图标。
 
-## Exposed Commands
+## 可用命令
 
-| Name | Description | Default key binding |
-| ---- | ----------- | ------------------- |
-| md-shortcut.showCommandPalette | Display all commands | ctrl+M ctrl+M |
-| md-shortcut.toggleBold | Make \*\*bold\*\* | ctrl+B |
-| md-shortcut.toggleItalic | Make \_italic\_ | ctrl+I |
-| md-shortcut.toggleStrikethrough | Make \~\~strikethrough\~\~ |  |
-| md-shortcut.toggleLink | Make [a hyperlink]\(www.example.org) | ctrl+L |
-| md-shortcut.toggleImage | Make an image ![]\(image_url.png) | ctrl+shift+L |
-| md-shortcut.toggleCodeBlock | Make \`\`\`a code block\`\`\` | ctrl+M ctrl+C |
-| md-shortcut.toggleInlineCode | Make \`inline code\` | ctrl+M ctrl+I |
-| md-shortcut.toggleBullets | Make * bullet point | ctrl+M ctrl+B |
-| md-shortcut.toggleNumbers | Make 1. numbered list | ctrl+M ctrl+1 |
-| md-shortcut.toggleCheckboxes | Make - [ ] check list (GitHub flavored markdown) | ctrl+M ctrl+X |
-| md-shortcut.toggleTitleH1 | Toggle # H1 title |  |
-| md-shortcut.toggleTitleH2 | Toggle ## H2 title |  |
-| md-shortcut.toggleTitleH3 | Toggle ### H3 title |  |
-| md-shortcut.toggleTitleH4 | Toggle #### H4 title |  |
-| md-shortcut.toggleTitleH5 | Toggle ##### H5 title |  |
-| md-shortcut.toggleTitleH6 | Toggle ###### H6 title |  |
-| md-shortcut.addTable | Add Tabular values |  |
-| md-shortcut.addTableWithHeader | Add Tabular values with header |  |
+| 命令 ID | 描述 | 默认快捷键 |
+| ------- | ---- | ---------- |
+| md-shortcut.showCommandPalette | 显示所有命令 | ctrl+M ctrl+M |
+| md-shortcut.toggleBold | 设为 **粗体** | ctrl+B |
+| md-shortcut.toggleItalic | 设为 _斜体_ | ctrl+I |
+| md-shortcut.toggleStrikethrough | 设为 ~~删除线~~ | |
+| md-shortcut.toggleLink | 添加 [超链接](www.example.org) | ctrl+L |
+| md-shortcut.toggleImage | 添加图片 ![](image_url.png) | ctrl+shift+L |
+| md-shortcut.toggleCodeBlock | 添加 ```代码块``` | ctrl+M ctrl+C |
+| md-shortcut.toggleInlineCode | 添加 `行内代码` | ctrl+M ctrl+I |
+| md-shortcut.toggleBullets | 添加 * 无序列表 | ctrl+M ctrl+B |
+| md-shortcut.toggleNumbers | 添加 1. 有序列表 | ctrl+M ctrl+1 |
+| md-shortcut.toggleCheckboxes | 添加 - [ ] 任务复选框 (GitHub 风格 Markdown) | ctrl+M ctrl+X |
+| md-shortcut.toggleTitleH1 | 切换 # 一级标题 | |
+| md-shortcut.toggleTitleH2 | 切换 ## 二级标题 | |
+| md-shortcut.toggleTitleH3 | 切换 ### 三级标题 | |
+| md-shortcut.toggleTitleH4 | 切换 #### 四级标题 | |
+| md-shortcut.toggleTitleH5 | 切换 ##### 五级标题 | |
+| md-shortcut.toggleTitleH6 | 切换 ###### 六级标题 | |
+| md-shortcut.addTable | 添加表格 (从文本数据转换) | |
+| md-shortcut.addTableWithHeader | 添加表格 (带表头) | |
