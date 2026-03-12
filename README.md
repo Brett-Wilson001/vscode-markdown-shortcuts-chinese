@@ -45,3 +45,11 @@
 | md-shortcut.toggleTitleH6 | 切换 ###### 六级标题 | |
 | md-shortcut.addTable | 添加表格 (从文本数据转换) | |
 | md-shortcut.addTableWithHeader | 添加表格 (带表头) | |
+
+## 更新日志
+
+### 0.12.1
+- **新增**: 添加汉化支持，提升中文用户体验
+
+### 0.12.2
+- **优化**: 改进插件启动逻辑，提升加载性能
