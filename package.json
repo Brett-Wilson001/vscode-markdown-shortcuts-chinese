@@ -1,10 +1,10 @@
 {
-	"name": "markdown-shortcuts",
+	"name": "markdown-shortcuts-chinese",
 	"displayName": "Markdown 快捷键",
 	"description": "Markdown 编辑相关的快捷键",
 	"icon": "media/images/markdown-shortcuts-512x512.png",
-	"version": "0.12.0",
-	"publisher": "mdickin",
+	"version": "0.12.2",
+	"publisher": "Brett-Wilson",
 	"engines": {
 		"vscode": "^1.9.0"
 	},
