@@ -69,7 +69,6 @@ You can show and hide icons in the title bar with the `markdownShortcuts.icons.*
 - **Added**: Multilingual support, automatically detects VSCode language
   - Chinese users see localized interface
   - English users see original English interface
-- **Added**: English README
 - **Optimized**: Improved localization architecture for easier future language additions
 
 ### 0.12.2
