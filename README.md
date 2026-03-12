@@ -1,6 +1,7 @@
 # Markdown 快捷键 (Markdown Shortcuts)
 
 本项目复刻自[vscode-markdown-shortcuts](https://github.com/mdickin/vscode-markdown-shortcuts)。我添加个人汉化，预览图未修改，可以直接安装使用。
+
 这是用于编辑 Markdown (`.md`, `.markdown`) 文件的便捷快捷键插件。您也可以在任何其他类型的文件中使用 Markdown 格式（请参阅配置设置）。
 
 **快速切换项目符号**
