@@ -16,6 +16,7 @@
 		"shortcut",
 		"tool",
 		"helper"
+		"快捷键",
 	],
 	"main": "./extension",
 	"activationEvents": [
@@ -415,10 +416,10 @@
 		"vscode": "^1.0.0",
 		"vscode-test-content": "^1.1.0"
 	},
-	"homepage": "https://github.com/mdickin/vscode-markdown-shortcuts",
+	"homepage": "https://github.com/Brett-Wilson001/vscode-markdown-shortcuts-chinese",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mdickin/vscode-markdown-shortcuts.git"
+		"url": "https://github.com/Brett-Wilson001/vscode-markdown-shortcuts-chinese.git"
 	},
 	"__metadata": {
 		"installedTimestamp": 1768642654016,
